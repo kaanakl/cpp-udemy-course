@@ -1,20 +1,38 @@
-// Section06_Challange.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+	std::cout << "Kaan's Carpet Cleaning Service" << '\n';
+
+	int smallRoomPrice{ 25 };
+	int largeRoomPrice{ 35 };
+	const double salesTax{ 0.06 };
+
+	std::cout << "\nHow many small rooms would you like to get cleaned? ";
+	int smallRoom{};
+	std::cin >> smallRoom;
+
+	std::cout << "How many large rooms would you like to get cleaned? ";
+	int largeRoom{};
+	std::cin >> largeRoom;
+
+	std::cout << "\nEstimate for carpet cleaning service" << '\n';
+	std::cout << "Number of small rooms: " << smallRoom << '\n';
+	std::cout << "Number of large rooms: " << largeRoom << '\n';
+	std::cout << "Price per small room: $" << smallRoomPrice << '\n';
+	std::cout << "Price per large room: $" << largeRoomPrice << '\n';
+
+	int cost{ (smallRoomPrice * smallRoom) + (largeRoomPrice * largeRoom) };
+	std::cout << "Cost: $" << cost << '\n';
+
+	//calculates the final tax
+	double tax{ cost * salesTax };
+	std::cout << "Tax: $" << tax << '\n';
+
+	std::cout << "===========================" << '\n';
+
+	double finalPrice{ cost + tax };
+	std::cout << "Total estimate: $" << finalPrice << '\n';
+	std::cout << "This estimate is valid for 30 days" << '\n';
+
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

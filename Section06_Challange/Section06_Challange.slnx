@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Section06_Challange.vcxproj" />
+  <Project Path="Section06_Challange.vcxproj" Id="5311a366-5d08-4f51-8521-771d0cba79a7" />
 </Solution>
