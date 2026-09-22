@@ -1,0 +1,20 @@
+# Visual Studio user specific files
+*.suo
+*.user
+*.usercst
+*.sln.docstates
+
+# Visual Studio cache/options directory
+.vs/
+**/ .vs/
+*.[Oo]bj
+*.pch
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPS/
+[Rr]elease/
+[Rr]eleasePS/
+[Tt]est/
+x64/
+ipch/
