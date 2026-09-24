@@ -9,12 +9,13 @@ Welcome to my repository for tracking my progress, code exercises, and challenge
 
 ## 📂 Repository Structure
 The repository is organized by sections as I progress through the curriculum:
-* `Section06_Challange/` - Variables, constants, and basic data types in C++.
+* `Section06_Challange/` - Variables and Constants
+*  `Section07_Challange/` - Arrays and Vectors
 *(Future sections will be added here sequentially)*
 
 ## 📈 Course Progress
 - [x] Section 6: Variables and Constants
-- [ ] Section 7: Arrays and Vectors
+- [x] Section 7: Arrays and Vectors
 - [ ] Section 8: Statements and Operators
 - [ ] Section 9: Controlling Program Flow
 - [ ] Section 10: Characters and Strings
